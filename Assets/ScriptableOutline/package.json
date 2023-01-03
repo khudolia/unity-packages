@@ -1,0 +1,28 @@
+{
+  "name": "com.khudolia.scriptable-outline",
+  "displayName": "Scriptable outline",
+  "version": "0.1.0",
+  "unity": "2021.3",
+  "description": "A package for adding outline effect for any object",
+  "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Andrii Khudolii",
+    "email": "khudolii.a.s@gmail.com",
+    "url": "https://github.com/StansAssets/com.stansassets.foundation/issues"
+  },
+  "homepage": "https://api.stansassets.com/",
+  "bugs": {
+    "url": "https://github.com/StansAssets/com.stansassets.foundation/issues",
+    "email": "support@stansassets.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:StansAssets/com.stansassets.foundation.git"
+  },
+  "unityRelease": "6f1"
+}
