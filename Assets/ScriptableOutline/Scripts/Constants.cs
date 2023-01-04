@@ -2,7 +2,7 @@
 
 namespace ScriptableOutline.Scripts
 {
-    public class Constants
+    public static class Constants
     {
         public const String OutlineMaxWidthName = "_2DOutlineWidthMax";
         public const String OutlineWidthName = "_2DOutlineWidth";
