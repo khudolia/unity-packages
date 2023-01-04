@@ -1,1 +1,1 @@
-[//]: # (include https://github.com/khudolia/scriptable-outline/blob/main/Assets/ScriptableOutline/Documentation/Readme.md)
+[//]: # (include /Assets/ScriptableOutline/Documentation/Readme.md)
