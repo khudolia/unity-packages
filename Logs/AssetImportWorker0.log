@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56658
+63573
 Successfully changed project path to: /Users/andriikhudolii/scriptable-outline
 /Users/andriikhudolii/scriptable-outline
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/andriikhudolii/scriptable-outline
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 74.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 67.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,81 +69,81 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56554
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56070
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003192 seconds.
+Registered in 0.001215 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 73.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 76.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.416 seconds
+- Completed reload, in  0.409 seconds
 Domain Reload Profiling:
-	ReloadAssembly (416ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (409ms)
+		BeginReloadAssembly (31ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (299ms)
-			LoadAssemblies (52ms)
+		EndReloadAssembly (307ms)
+			LoadAssemblies (31ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (67ms)
+			SetupTypeCache (74ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (185ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (186ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
+				InitializePlatformSupportModulesInManaged (31ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
+				RefreshPlugins (76ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (53ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (52ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002047 seconds.
+Registered in 0.001740 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/andriikhudolii/scriptable-outline/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/andriikhudolii/scriptable-outline/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.759 seconds
+- Completed reload, in  0.705 seconds
 Domain Reload Profiling:
-	ReloadAssembly (760ms)
-		BeginReloadAssembly (169ms)
+	ReloadAssembly (706ms)
+		BeginReloadAssembly (167ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (123ms)
-		EndReloadAssembly (518ms)
-			LoadAssemblies (55ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (471ms)
+			LoadAssemblies (35ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
-			ReleaseScriptCaches (2ms)
+			SetupTypeCache (164ms)
+			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (230ms)
+			SetupLoadedEditorAssemblies (214ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (145ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -152,13 +152,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3423 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (82.5 KB). Loaded Objects now: 3882.
-Memory consumption went from 102.0 MB to 101.9 MB.
-Total: 2.654292 ms (FindLiveObjects: 0.112542 ms CreateObjectMapping: 0.039250 ms MarkObjects: 2.420625 ms  DeleteObjects: 0.081250 ms)
+Unloading 27 unused Assets / (82.6 KB). Loaded Objects now: 3882.
+Memory consumption went from 98.7 MB to 98.6 MB.
+Total: 2.267917 ms (FindLiveObjects: 0.092666 ms CreateObjectMapping: 0.038042 ms MarkObjects: 2.038792 ms  DeleteObjects: 0.097708 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,31 +172,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 228119.932343 seconds.
-  path: Assets/ScriptableOutline/Documentation/scriptable-outline.md
+  Time since last request: 131054.044227 seconds.
+  path: Assets/ScriptableOutline/Documentation/Readme.md
   artifactKey: Guid(b23a26a26781a461293786a17fe7fa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableOutline/Documentation/scriptable-outline.md using Guid(b23a26a26781a461293786a17fe7fa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52c6aa8462be15b5147305b8358a359') in 0.045156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 395.366269 seconds.
-  path: Assets/ScriptableOutline/Documentation/scriptable-outline.md
-  artifactKey: Guid(b23a26a26781a461293786a17fe7fa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableOutline/Documentation/scriptable-outline.md using Guid(b23a26a26781a461293786a17fe7fa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28324001ba6a8226ff227fe875a90930') in 0.001114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 483.254456 seconds.
-  path: Assets/ScriptableOutline/Documentation/scriptable-outline.md
-  artifactKey: Guid(b23a26a26781a461293786a17fe7fa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableOutline/Documentation/scriptable-outline.md using Guid(b23a26a26781a461293786a17fe7fa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1065a12a6cb2426a41ff82c6b94cc87') in 0.003507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 103.611837 seconds.
-  path: Assets/ScriptableOutline/Documentation/scriptable-outline.md
-  artifactKey: Guid(b23a26a26781a461293786a17fe7fa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableOutline/Documentation/scriptable-outline.md using Guid(b23a26a26781a461293786a17fe7fa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4050040a2b4946c4170b2f752431bd') in 0.001401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 212.149309 seconds.
-  path: Assets/ScriptableOutline/Documentation/scriptable-outline.md
-  artifactKey: Guid(b23a26a26781a461293786a17fe7fa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableOutline/Documentation/scriptable-outline.md using Guid(b23a26a26781a461293786a17fe7fa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4b4c73404b9720a931cecb1af99acb') in 0.001437 seconds 
+Start importing Assets/ScriptableOutline/Documentation/Readme.md using Guid(b23a26a26781a461293786a17fe7fa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1649a6bf6b42d05a520b924359002eac') in 0.742748 seconds 
