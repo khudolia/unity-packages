@@ -1,50 +1,14 @@
-# Scriptable outline
+# Unity packages
 
-Developed by Andrii Khudolii (с) 2022
+Developed by Andrii Khudolii (с) 2023
 
+This repo contains packages that I wrote during the development of different projects and which could be useful in the development of the nexts. 
 
-### How to do? 
+## Scriptable outline
+A package that allows to create animated scriptable outline around any object in HDRP, URP, SP.
 
-To add an outline effect to an object, drag-n-drop the `OutlineInstance.cs` script to needed object.
+## Object spawner
+A package that allows to spawn objects in the provided area.
 
-It will create `OutlineController.cs` with which is possible to control outline parameters, such as:
-
-```
-- Width
-- Color
-- Visibility status
-- Animation speed
-```
-
-Then if need to remove outline - just remove\disable `OutlineInstance.cs` script.
-
-***DO NOT REMOVE MATERIALS OR `OutlineController.cs` MANUALLY!***
-
-This package allows to enable\disable outline with animation.
-To control it - `isVisible` parameter should be changed.
-To control speed of in\out animation - change `animationDuration` parameter.
-
-The changing of the `outlineColor` also goes with animation. So, all what will be changed - will be changed smoothly.
-
-### Examples
-
-Add:
-```
-if(gameObject.GetComponent<OutlineInstance>() == null)
-    gameObject.AddComponent<OutlineInstance>();
-```
-
-Remove:
-
-```
-Destroy(gameObject.GetComponent<OutlineInstance>());
-```
-
-Change parameters:
-
-```
-private OutlineController _controller;
-
-_controller.isVisible = true;
-_controller.outlineColor = Color.white;
-```
+## Object holder
+A package that allows to hold an object in the given area.
