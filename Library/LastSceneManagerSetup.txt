@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/ScriptableOutline/Samples/OutlineScene.unity
+- path: Assets/ObjectSpawner/Samples/SpawnerScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
