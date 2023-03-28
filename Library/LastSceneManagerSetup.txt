@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/ObjectHolder/Samples/HolderScene.unity
+- path: Assets/ScriptableOutline/Samples/OutlineScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
