@@ -349,6 +349,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/ObjectHolder/Scripts/ObjectHolder.cs"
 "Assets/ObjectSpawner/Scripts/ObjectDistance.cs"
 "Assets/ObjectSpawner/Scripts/ObjectsSpawner.cs"
 "Assets/ScriptableOutline/Scripts/Constants.cs"

@@ -46,6 +46,8 @@
      <Compile Include="Assets\ScriptableOutline\Scripts\OutlineController.cs" />
      <Compile Include="Assets\ObjectSpawner\Scripts\ObjectDistance.cs" />
      <Compile Include="Assets\ObjectSpawner\Scripts\ObjectsSpawner.cs" />
+     <Compile Include="Assets\ObjectHolder\Scripts\ObjectHolder.cs" />
+     <None Include="Assets\ObjectHolder\package.json" />
      <None Include="Assets\ScriptableOutline\Resources\Shaders\2DOutlineMask.shader" />
      <None Include="Assets\ObjectSpawner\package.json" />
      <None Include="Assets\ScriptableOutline\package.json" />
@@ -752,9 +754,6 @@
       <Project>{f0612394-76ae-bd0f-9991-d43b4bdf800c}</Project>
       <Name>asset-store-tools-editor</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\ObjectSpawner\LICENSE" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

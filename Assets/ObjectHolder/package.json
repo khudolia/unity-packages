@@ -1,0 +1,28 @@
+{
+  "name": "com.khudolia.object-holder",
+  "displayName": "Object holder",
+  "version": "0.1.0",
+  "unity": "2021.3",
+  "description": "A package for holding objects in the given area",
+  "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Andrii Khudolii",
+    "email": "khudolii.a.s@gmail.com",
+    "url": "https://github.com/khudolia"
+  },
+  "homepage": "https://github.com/khudolia",
+  "bugs": {
+    "url": "https://github.com/khudolia",
+    "email": "khudolii.a.s@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khudolia/unity-packages.git"
+  },
+  "unityRelease": "6f1"
+}
